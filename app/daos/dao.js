@@ -5,6 +5,18 @@ const heroDao = {
     ...require('./api/heroDao')
 }
 
+const powerDao = {
+    ...daoCommon,
+    ...require('./api/powerDao')
+}
+
+const speciesDao = {
+    ...daoCommon,
+    ...require('./api/speciesDao')
+}
+
 module.exports = {
-    heroDao
+    heroDao,
+    powerDao,
+    speciesDao
 }

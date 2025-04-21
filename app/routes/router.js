@@ -17,7 +17,8 @@ router.get('/api', (req, res) => {
 });
 
 const endpoints = [
-    'hero'
+    'hero', 'power',
+    'species'
 ]
 
 endpoints.forEach(endpoint => {
